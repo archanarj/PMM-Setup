@@ -25,7 +25,9 @@ if [[ $check_digests_of_image_is_not_empty ]] && [[ $check_if_data_volume_exists
     echo "rmdir " $image_data_dir
     
     echo "ln -s /mnt/disks/pmmdata " $image_data_dir
-    
+     
+    deploy_pmm_server=$(docker run -itd -p 7443:443 --volumes-from pmmdata --name pmm-server  -v /etc/pmm-certs:/srv/nginx --restart always xyz/percona/pmm-server-updated:2.34.0)    
+
 else
 
     echo "image is corrupted or pmmdata image already exists"
