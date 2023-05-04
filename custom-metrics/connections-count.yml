@@ -1,0 +1,9 @@
+mysql_connections:
+  query: "select PROCESSLIST_USER user, count(*) from performance_schema.threads group by 1 order by 2;"
+  metrics: ## List of metrics.
+    - user:
+        usage: "LABEL"
+        description: "user"
+    - count:
+        usage: "LABEL"
+        description: "connections" 
