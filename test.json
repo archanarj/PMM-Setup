@@ -1,0 +1,14 @@
+{
+  "schemaname": "xyz",
+  "servicename": "wxyz",
+  "numofschema": 1024,
+  "issharded": "y",
+  "appusername": "xyzapp",
+  "dbdusername": "abcdbd",
+  "apphvaultpath": "/x/y/z",
+  "dbdhvaultpath": "/a/b/c/d",
+  "role": "shard",
+  "cname": "primary",
+  "activedc": "us-central1",
+  "createusertype": "shard_svc_user"
+}
