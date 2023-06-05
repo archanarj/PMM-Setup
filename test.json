@@ -5,7 +5,7 @@
   "issharded": "y",
   "appusername": "xyzapp",
   "dbdusername": "abcdbd",
-  "apphvaultpath": "/x/y/z",
+  "apphvaultpath": "/x/y/z/ee",
   "dbdhvaultpath": "/a/b",
   "role": "shard",
   "cname": "primary",
