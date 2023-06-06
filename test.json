@@ -6,7 +6,7 @@
   "appusername": "xyzapp",
   "dbdusername": "abcdbd",
   "apphvaultpath": "/nb",
-  "dbdhvaultpath": "/an/",
+  "dbdhvaultpath": "/a//nnn",
   "role": "shard",
   "cname": "primary",
   "activedc": "us-central1",
